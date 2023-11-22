@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.liticia</groupId>
-	<artifactId>digtit-test</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>digtit-test</name>
+	<artifactId>digit-test</artifactId>
+	<version>1.0.0</version>
+	<name>digit-test</name>
 	<description>test</description>
 	<properties>
 		<java.version>17</java.version>
