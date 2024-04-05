@@ -34,11 +34,11 @@ public class CustomerController {
         return "redirect:/customers";
     }
 
-    @GetMapping("/delete/{id}")
-    public String deleteCustomer(@PathVariable(value = "id") int id) {
-        customerService.delete(id);
-        return "redirect:/customers";
-    }
+        @GetMapping("/delete/{id}")
+        public String deleteCustomer(@PathVariable(value = "id") int id) {
+            customerService.delete(id);
+            return "redirect:/customers";
+        }
 
     @GetMapping("/updateForm/{id}")
     public String showUpdateForm(@PathVariable(value = "id") int id, Model model) {
